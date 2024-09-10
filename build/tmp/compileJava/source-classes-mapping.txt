@@ -1,0 +1,22 @@
+tasks/FinalFormRegister.java
+ tasks.FinalFormRegister
+utils/CompletarCampo.java
+ utils.CompletarCampo
+tasks/SecondFormRegister.java
+ tasks.SecondFormRegister
+questions/VerificarLabel.java
+ questions.VerificarLabel
+userinterfaces/FinalFormRegister.java
+ userinterfaces.FinalFormRegister
+userinterfaces/HomePage.java
+ userinterfaces.HomePage
+userinterfaces/ThreeFormRegister.java
+ userinterfaces.ThreeFormRegister
+userinterfaces/SecondFormRegister.java
+ userinterfaces.SecondFormRegister
+userinterfaces/FirstFromRegistrer.java
+ userinterfaces.FirstFromRegistrer
+tasks/FirstFormRegister.java
+ tasks.FirstFormRegister
+tasks/ThreeFormRegister.java
+ tasks.ThreeFormRegister
