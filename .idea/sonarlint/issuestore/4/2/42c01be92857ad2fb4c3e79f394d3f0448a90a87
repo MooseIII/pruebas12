@@ -1,0 +1,19 @@
+
+y
+java:S1104"WMake RECRUITMENT a static final constant or non-public and provide accessors if needed.(Õ­¥äüÿÿÿÿ8“ÔÉ¾2
+l
+java:S1104"OMake ADD a static final constant or non-public and provide accessors if needed.(¿êé¢8“ÔÉ¾2
+S
+java:S1444"1Make this "public static RECRUITMENT" field final(Õ­¥äüÿÿÿÿ8“ÔÉ¾2
+F
+java:S1444")Make this "public static ADD" field final(¿êé¢8•ÔÉ¾2
+x
+java:S3008"VRename this field "RECRUITMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ­¥äüÿÿÿÿ8˜ÔÉ¾2
+k
+java:S3008"NRename this field "ADD" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿êé¢8˜ÔÉ¾2
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ÊÁ¯ä8ÔÉ¾2
+^
+java:S3252	"<Use static access with "org.openqa.selenium.By" for "xpath".(ŠÜ¸­üÿÿÿÿ8¡ÔÉ¾2
+^
+java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(Û×òËøÿÿÿÿ8¤ÔÉ¾2

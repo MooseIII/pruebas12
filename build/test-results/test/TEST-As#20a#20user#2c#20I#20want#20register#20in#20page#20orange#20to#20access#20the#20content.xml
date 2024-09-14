@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As a user, I want register in page orange to access the content" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-14T02:48:31" hostname="DESKTOP-BELCJ9D" time="96.474">
+  <properties/>
+  <testcase name="Registrarme en pagina de orange" classname="As a user, I want register in page orange to access the content" time="96.474"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[sep 13, 2024 9:48:31 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 128.0.6613.86 (3045ed680fdab64f784f3b366cfe74adbdf6ff01-refs/branch-heads/6613@{#1337}) on port 24834
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 24834.
+sep 13, 2024 9:48:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+]]></system-err>
+</testsuite>

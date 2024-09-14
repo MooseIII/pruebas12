@@ -1,8 +1,12 @@
 package utils;
 
+import net.serenitybdd.screenplay.targets.Target;
+
 public class CompletarCampo {
 
-    public static void imprimir(String name){
-        System.out.println(name);
+    public static String xphatDinamico(String validacion,String Value){
+       return validacion.replace("replace",Value);
     }
 }
+
+

@@ -1,0 +1,35 @@
+
+s
+java:S1104"VMake FIRST_NAME a static final constant or non-public and provide accessors if needed.(ÄÒÔš8Ö‘ø¾ž2
+t
+java:S1104"WMake MIDDLE_NAME a static final constant or non-public and provide accessors if needed.(—Ð•Ì8Ö‘ø¾ž2
+w
+java:S1104"UMake LAST_NAME a static final constant or non-public and provide accessors if needed.(­–ç›ÿÿÿÿÿ8Ö‘ø¾ž2
+u
+java:S1104"SMake VACANCI a static final constant or non-public and provide accessors if needed.(ð¿Ì‰þÿÿÿÿ8ª½ù¾ž2
+M
+java:S1444"0Make this "public static FIRST_NAME" field final(ÄÒÔš8Ö‘ø¾ž2
+N
+java:S1444"1Make this "public static MIDDLE_NAME" field final(—Ð•Ì8×‘ø¾ž2
+Q
+java:S1444"/Make this "public static LAST_NAME" field final(­–ç›ÿÿÿÿÿ8×‘ø¾ž2
+O
+java:S1444"-Make this "public static VACANCI" field final(ð¿Ì‰þÿÿÿÿ8«½ù¾ž2
+r
+java:S3008"URename this field "FIRST_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÒÔš8Ø‘ø¾ž2
+s
+java:S3008"VRename this field "MIDDLE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ð•Ì8Ù‘ø¾ž2
+v
+java:S3008"TRename this field "LAST_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­–ç›ÿÿÿÿÿ8Ù‘ø¾ž2
+t
+java:S3008"RRename this field "VACANCI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð¿Ì‰þÿÿÿÿ8°½ù¾ž2
+W
+java:S1118":Add a private constructor to hide the implicit public one.(ï Ù¹8Ý‘ø¾ž2
+]
+java:S3252	";Use static access with "org.openqa.selenium.By" for "name".(…×ÊÚøÿÿÿÿ8ã‘ø¾ž2
+X
+java:S3252";Use static access with "org.openqa.selenium.By" for "name".(þ¯¼Æ8ä‘ø¾ž2
+W
+java:S3252";Use static access with "org.openqa.selenium.By" for "name".(®ÁÈ8æ‘ø¾ž2
+^
+java:S3252"<Use static access with "org.openqa.selenium.By" for "xpath".(´¾½ùÿÿÿÿ8è‘ø¾ž2

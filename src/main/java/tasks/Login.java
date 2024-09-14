@@ -4,21 +4,14 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
-import net.serenitybdd.screenplay.actions.ClickOnBy;
 import net.serenitybdd.screenplay.actions.SendKeys;
-import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
-import net.serenitybdd.screenplay.questions.Enabled;
-import net.serenitybdd.screenplay.questions.WebElementQuestion;
-import net.serenitybdd.screenplay.waits.WaitUntil;
-import userinterfaces.HomePage;
-import static net.serenitybdd.screenplay.matchers.WebElementStateMatchers.isVisible;
-import static userinterfaces.FirstFromRegistrer.*;
-import static userinterfaces.HomePage.*;
-import static utils.CompletarCampo.imprimir;
 
-public class FirstFormRegister implements Task {
+import static userinterfaces.Login.*;
+
+
+public class Login implements Task {
     private String name="";
-    public FirstFormRegister(String name) {
+    public Login(String name) {
        this.name=name;
     }
 
@@ -31,8 +24,8 @@ public class FirstFormRegister implements Task {
                 );
     }
 
-  public static FirstFormRegister firstFormRegister(String nombre){
-   imprimir(nombre);
-     return Tasks.instrumented(FirstFormRegister.class,nombre);
+  public static Login firstFormRegister(String nombre){
+
+     return Tasks.instrumented(Login.class,nombre);
   }
 }

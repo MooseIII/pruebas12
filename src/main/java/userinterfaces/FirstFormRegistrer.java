@@ -3,7 +3,7 @@ package userinterfaces;
 import net.serenitybdd.core.annotations.findby.By;
 import net.serenitybdd.screenplay.targets.Target;
 
-public class FirstFromRegistrer  {
+public class FirstFormRegistrer {
 
     public static Target RECRUITMENT =Target.the("Recruitment")
             .located(By.xpath("//*[@href='/web/index.php/recruitment/viewRecruitmentModule']"));

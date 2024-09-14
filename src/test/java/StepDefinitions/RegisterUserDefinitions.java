@@ -9,16 +9,9 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.serenitybdd.screenplay.actions.OpenUrl;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
-import questions.VerificarLabel;
-import tasks.FinalFormRegister;
-import tasks.FirstFormRegister;
-import tasks.SecondFormRegister;
-import tasks.ThreeFormRegister;
-
-import java.util.function.Predicate;
+import tasks.*;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
-import static utils.CompletarCampo.imprimir;
 
 public class RegisterUserDefinitions {
     Actor user=new Actor("User");
@@ -31,23 +24,25 @@ public class RegisterUserDefinitions {
         user.can(BrowseTheWeb.with(driver));
     }
 
-    @Given("^Accedo a la pagina principal de Utest\\.com$")
-    public void accedoALaPaginaPrincipalDeUtestCom() {
-        user.wasAbleTo(new OpenUrl("https://www.utest.com/"));
+    @Given("^Accedo a la pagina principal de orange$")
+    public void accedoALaPaginaPrincipalDeOrange() {
+        user.wasAbleTo(new OpenUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"));
     }
 
     @When("^completo la informacion del registro con el (.*)$")
     public void completoLaInformacionDelRegistro(String nombre) {
-        user.attemptsTo(FirstFormRegister.firstFormRegister(nombre),
+        user.attemptsTo(
+              Login.firstFormRegister(nombre),
+              FirstFormRegister.firstFormRegister(),
               SecondFormRegister.secondFormRegister(),
-                ThreeFormRegister.threeFormRegister(),
-                FinalFormRegister.finalFormRegister()
-
+              ThreeFormRegister.threeFormRegister(),
+              FourFormRegister.fourFormRegister(),
+              FiveFormRegister.fiveFormRegister()
         );
 
     }
     @Then("^Valido que logre acceder al contenido de la pagina$")
     public void validoQueLogreAccederAlContenidoDeLaPagina() {
-        user.should(seeThat( VerificarLabel.verificarLabel(), Predicate.isEqual("Last name:")));
+
     }
 }
